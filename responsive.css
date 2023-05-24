@@ -1,0 +1,54 @@
+@media (max-width: 990px) {
+  .T-image img {
+    display: none;
+  }
+}
+
+/* section 3 pie chart */
+@media screen and (max-width: 742px) {
+  .center_div p {
+    display: none;
+  }
+  .center_div h4 {
+    display: none;
+  }
+  .center_div h1 {
+    text-align: center;
+    padding: 0;
+  }
+}
+/* last section wave  */
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+  .content {
+    height: 30vh;
+  }
+  h1 {
+    font-size: 24px;
+  }
+}
+
+/* contsct us form  */
+@media (max-width: 991px) {
+  .inner {
+    min-width: 768px;
+  }
+}
+@media (max-width: 767px) {
+  .inner {
+    min-width: auto;
+    background: none;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  form {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
